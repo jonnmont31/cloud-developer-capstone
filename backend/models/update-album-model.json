@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "group",
+  "type": "object",
+  "properties": {
+    "albumName": {
+      "type": "string"
+    },
+    "albumArtist": {
+      "type": "string"
+    },
+    "albumYear": {
+      "type": "string"
+    },
+    "albumGenre": {
+      "type": "string"
+    }
+  },
+  "required": ["albumName"],
+  "additionalProperties": false
+}
